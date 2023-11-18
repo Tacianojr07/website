@@ -4,11 +4,11 @@ export function Header() {
   return (
     <div>
       <header>
-        <Link>HOLIHLI</Link>
-        <Link>Home</Link>
-        <Link>About</Link>
-        <Link>Services</Link>
-        <Link>Contact</Link>
+        <Link to={"/"}>HOLIHLI</Link>
+        <Link to={"/"}>Home</Link>
+        <Link to={"/about"}>About</Link>
+        <Link to={"/services"}>Services</Link>
+        <Link to={"/contact"}>Contact</Link>
       </header>
     </div>
   );
