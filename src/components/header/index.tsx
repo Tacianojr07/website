@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <div className="w-full h-16 mx-auto flex justify-center items-center my-5">
-      <header className="w-full max-w-7xl flex items-center justify-start gap-11  mb-4 mx-auto font-medium">
+    <div className="w-full h-16 max-w-7xl mx-auto flex justify-center items-center my-5 px-4">
+      <header className="w-full max-w-7xl flex items-center justify-start gap-11  mb-4 mx-auto font-medium ">
         <Link className="text-3xl" to={"/"}>
           HOLIHLI
         </Link>
