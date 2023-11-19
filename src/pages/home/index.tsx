@@ -1,5 +1,6 @@
 import { Container } from "../../components/container";
 import image from "../../assets/img.jpg";
+import { Button } from "../../components/button";
 
 export function Home() {
   return (
@@ -15,12 +16,8 @@ export function Home() {
             </span>
 
             <div className="flex items-start w-full max-w-xl gap-10  mt-5 text-center">
-              <button className=" bg-green-300 w-full py-2 h-10 rounded-full  text-center mx-auto">
-                Get my Free Proposal
-              </button>
-              <button className="bg-slate-200 w-full py-2 h-10 rounded-full   text-center">
-                how it works
-              </button>
+              <Button bgColor="#86EFAC" placeholder=" Get my Free Proposal" />
+              <Button bgColor="#f4f4f4" placeholder=" How to work" />
             </div>
           </div>
         </section>
